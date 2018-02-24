@@ -33,5 +33,8 @@
 	console.log(('0000' + Math.floor(Math.random() *  9999)).slice(-4));
 10 生成随机颜色值
 	Math.floor(Math.random() * (2 << 23)).toString(16)
-
-
+11 最快捷的数组求最大值
+	var arr = [ 1,5,1,7,5,9];
+	Math.max(...arr)  // 9 
+12 更短的数组去重写法
+	[...new Set([2,"12",2,12,1,2,1,6,12,13,6])]
